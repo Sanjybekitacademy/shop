@@ -1,0 +1,13 @@
+@media (max-width: 375px) {
+    .header__burger {
+        display: block;
+    }
+    .header__nav {
+        display: none;
+    }
+}
+@media (max-width: 400) {
+    .hero__container {
+        width: 375px;
+    }
+}
