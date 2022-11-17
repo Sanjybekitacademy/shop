@@ -60,6 +60,8 @@ a {
 }
 .hero__bg {
     height: 823px;
+    background: url("../image/fon1.jpg") no-repeat center/cover;
+    height: 100vh;
 
 }
 .hero__bg img {
@@ -171,7 +173,7 @@ a {
 .card-2 {
     display: grid;
     column-gap: 20px;
-    row-gap: 28px;
+    /* row-gap: 28px; */
     grid-template-areas: "img3 img3 img4"
                           "img5 img6 img4";
     grid-template-columns: repeat(3, 1fr);
